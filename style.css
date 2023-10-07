@@ -1,0 +1,38 @@
+body{
+    background-image: url('giphy.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    }
+    td{
+        border: 1px solid rgb(rgb(124, 58, 124), rgb(97, 71, 38), rgb(45, 45, 85));
+        text-align: center;
+        padding: 8px 15;
+    }
+
+    tr:nth-child(even), table.list thread> tr{
+        background-color: rgb(70, 51, 26);
+
+    }
+    input[type="text"]{
+        width: 91%;
+        padding: 12px 20px;
+        margin:  8px 0;
+        display: inline-block;
+        border: 1px solid aquamarine;
+         border-radius: 4px;
+
+    }
+
+    input[type="text"]{
+        background: #944e4e;
+        padding: 6px 12px;
+        margin:  15px 0 15px;
+        display: inline-block;
+        border: none;
+        border-radius: 30px;
+        font-size: 1rem;
+        cursor: pointer;
+        outline: none;
+    }
